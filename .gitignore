@@ -1,3 +1,4 @@
+# OCaml compiled files (existing)
 *.annot
 *.cmo
 *.cma
@@ -34,3 +35,32 @@ setup.log
 
 # Local OPAM switch
 _opam/
+
+# Generated documentation
+_doc/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local configuration overrides
+config/local.json
+config/*.local.json
+
+# Environment files
+.env
+.env.local
+
+# Binary executables
+main.exe
+madkhal
