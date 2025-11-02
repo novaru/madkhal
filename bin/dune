@@ -1,0 +1,19 @@
+(executable
+ (name main)
+ (public_name madkhal)
+ (package madkhal)
+ (libraries
+  dream
+  yojson
+  lwt
+  lwt.unix
+  cohttp-lwt-unix
+  uri
+  logs
+  logs.fmt
+  fmt
+  uuidm
+  re
+  madkhal_lib)
+ (preprocess
+  (pps lwt_ppx)))

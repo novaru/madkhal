@@ -1,0 +1,6 @@
+(library
+ (name madkhal_lib)
+ (public_name madkhal.lib)
+ (libraries dream yojson lwt lwt.unix cohttp-lwt-unix uri logs fmt uuidm re)
+ (preprocess
+  (pps lwt_ppx)))
