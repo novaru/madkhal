@@ -1,0 +1,4 @@
+(library
+ (name routing)
+ (public_name madkhal.routing)
+ (libraries types uri yojson))
