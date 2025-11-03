@@ -1,0 +1,4 @@
+(library
+ (name validation)
+ (public_name madkhal.validation)
+ (libraries types yojson unix))
