@@ -1,0 +1,19 @@
+(executable
+ (name test_validator)
+ (libraries validation types yojson)
+ (modules test_validator))
+
+(executable
+ (name test_routing)
+ (libraries routing types yojson unix)
+ (modules test_routing))
+
+(rule
+ (alias runtest)
+ (action
+  (run ./test_validator.exe)))
+
+(rule
+ (alias runtest)
+ (action
+  (run ./test_routing.exe)))
