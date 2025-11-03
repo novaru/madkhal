@@ -1,0 +1,6 @@
+(library
+ (name handlers)
+ (public_name madkhal.handlers)
+ (libraries types validation routing dream yojson lwt)
+ (preprocess
+  (pps lwt_ppx)))
